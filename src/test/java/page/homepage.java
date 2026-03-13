@@ -208,7 +208,7 @@ public String getDisk(int row)
 
 public String getMemory(int row)
 {
-	return driver.findElement(By.xpath("//*[@id='taskTable']/tbody/tr["+row+"]/td[3]")).getText();
+	return driver.findElement(By.xpath("//*[@id='taskTable']/tbody/tr["+row+"]/td[4]")).getText();
 }
 
 //get disk using name

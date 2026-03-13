@@ -577,32 +577,32 @@ public void enter_input1(String text) {
 }
 
 @And("user enters {string} in Input Box 2")
-public void enter_input2(String text) {
+public void enterinput2(String text) {
   details.setInputBox2(text);
 }
 
 @And("user checks Checkbox 1")
-public void check_checkbox1() {
+public void usercheckscheckbox1() {
     details.checkCheckbox1();
 }
 
 @And("user checks Checkbox 2")
-public void check_checkbox2() {
+public void usercheckscheckbox2() {
     details.checkCheckbox2();
 }
 
 @And("user toggles Input Box 2")
-public void toggle_input2() {
+public void usertogglesinputbox2() {
     details.clickToggleInput2();
 }
 
 @And("user toggles Checkbox 2")
-public void toggle_checkbox2() {
+public void usertogglescheckbox2() {
    details.clickToggleCheckbox2();
 }
 
 @And("user clicks Load AJAX Content")
-public void load_ajax_content() {
+public void userclicksloadajaxcontent() {
    details.clickLoadAjaxBtn();
 }
 
@@ -626,36 +626,36 @@ public void userclickdownloadinfooter() {
 }
 
 @And("user enter text {string}")
-public void user_enter_text(String text) {
+public void userentertext(String text) {
     details.enterDownloadText(text);
 }
 
 @And("user click generate text file")
-public void user_click_generate_text_file() {
+public void userclickgeneratetextfile() {
 	details.clickGenerateTextFile();
 }
 
 @And("user download text file")
-public void user_download_text_file() {
+public void userdownloadtext_file() {
 	details.clickDownloadTextFile();
 }
 
 @And("user click generate pdf file")
-public void user_click_generate_pdf_file() {
+public void userclickgeneratepdf_file() {
 	details.clickGeneratePdfFile();
 }
 
 @And("user download pdf file")
-public void user_download_pdf_file() {
+public void userdownloadpdffile() {
 	details.clickDownloadPdfFile();
 }
 
 @And("user download pdf using browser")
-public void user_download_pdf_using_browser() {
+public void userdownloadpdfusingbrowser() {
 	details.clickDownloadPdfBrowser();
 }
 @Then("user return back to home page")
-public void user_return_back_to_home_page() {
+public void userreturnbacktohomepage() {
 	System.out.println(driver.getCurrentUrl());
 	driver.navigate().back();
 }
